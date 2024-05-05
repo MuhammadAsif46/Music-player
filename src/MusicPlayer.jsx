@@ -5,6 +5,12 @@ import { FaBackward, FaForward, FaPause, FaPlay } from "react-icons/fa6";
 
 const MusicPlayer = () => {
 
+    const artistNames = ["Hafiz Tahir Qadri","Zohaib Ashrafi", "Owais Raza Qadri","Ashfaq Attari"]
+    const artistTitle = ["Mien Kabe ko dekhonga","Wo shar e muhabbat", "Ho karam sarkar ab tu","Barwien ka noor"]
+
+    // console.log(artistTitle);
+    // console.log(artistNames);
+
     const backward =() => {
         console.log("hello");
     }
