@@ -51,7 +51,9 @@
 }
 
 .box-1{
-  background: linear-gradient(yellow,-20%, gray);
+  
+  /* background: linear-gradient(yellow,-20%, gray); */
+  background: linear-gradient( yellow,gray 70%)
 }
 
 .center{
@@ -74,7 +76,7 @@
 }
 
 .box-1{
- flex-direction: column;
+flex-direction: column;
  width: 350px;
  height: 450px;
  border-radius: 10px;
@@ -89,4 +91,73 @@
 
 .box-1 h4{
   margin-bottom: 35px;
+}
+.art-name p {
+  white-space: nowrap;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.round{
+  animation: round 4s linear infinite;
+}
+
+@keyframes round {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+
+  }
+}
+
+.run {
+  animation: run 6s linear infinite;
+}
+
+@keyframes run {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+
+
+  }
+}
+
+.ctrl{
+  cursor: pointer;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.ctrl:active{
+  transform: scale(0.9);
+}
+
+.none{
+  display: none;
+}
+
+.msc{
+  margin-top: 30px;
+}
+
+.prog{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-size: 10px; */
 }

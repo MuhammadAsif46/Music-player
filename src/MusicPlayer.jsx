@@ -12,37 +12,37 @@ const MusicPlayer = () => {
         console.log("hello");
     }
   return (
-    <div>
-        <div>
-            <h4>Justin beaber</h4>
-            <div>
-                <img src={img1} alt="image-One" id='artist' />
+    <div className='box center'>
+        <div className='box-1 center'>
+            <h4 className='name'>Justin beaber</h4>
+            <div className='art'>
+                <img className='center round' src={img1} alt="image-One" id='artist' />
             </div>
-            <div>
-                <p>God`s plan</p>
+            <div className='art-name'>
+                <p className='title run'>God`s plan</p>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <p>0:00</p>
+            <div className='prog'>
+                <div className='time'>
+                    <div className='start'>
+                        <p className='start'>0:00</p>
                     </div>
-                    <div>
-                    <p>0:00</p>
+                    <div className='end'>
+                    <p className='end'>0:00</p>
                     </div>
                 </div>
-                <div>
-                    <div></div>
+                <div className='line'>
+                    <div className='lineChild'></div>
                 </div>
             </div>
-            <div>
-                <div onClick={backward}>
+            <div className='msc center'>
+                <div className='ctrl center' onClick={backward}>
                 <FaBackward />
                 </div>
-                <div id='playing'>
+                <div  className='ctrl center' id='playing'>
                 <FaPlay />
-                <FaPause />
+                <FaPause className='none'/>
                 </div>
-                <div onClick={forward}>
+                <div className='ctrl center' onClick={forward}>
                     <FaForward/>
                 </div>
                 <audio src="" className=''></audio>
