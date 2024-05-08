@@ -208,9 +208,8 @@ input[type="range"] {
 
 /* Style the track (line) */
 input[type="range"]::-webkit-slider-runnable-track {
-  background: linear-gradient(to right, red 0%, red calc(var(--value) * 1%), #ccc calc(var(--value) * 1%), #ccc 100%); /* Use linear gradient for track */
-  height: 5px; /* Set height */
-  border-radius: 5px; /* Rounded corners */
+  background: linear-gradient(to right, red 0%, red calc(var(--value) * 1%), #ccc calc(var(--value) * 1%), #ccc 100%); 
+  height: 5px;  border-radius: 5px; /* Rounded corners */
 }
 
 /* Style the thumb (circle) */
