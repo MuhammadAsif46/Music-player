@@ -119,13 +119,13 @@ const MusicPlayer = () => {
         </div>
         <div className="msc center">
           <div className="ctrl center" onClick={backwardHandler}>
-            <FaBackward />
+            <FaBackward color="#fff"/>
           </div>
           <div className="ctrl center" id="playing" onClick={togglePlayPause}>
-            {isPlaying ? <FaPause /> : <FaPlay />}
+            {isPlaying ? <FaPause color="#fff"/> : <FaPlay color="#fff"/>}
           </div>
           <div className="ctrl center" onClick={forwardHandler}>
-            <FaForward />
+            <FaForward color="#fff"/>
           </div>
         </div>
       </div>

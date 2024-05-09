@@ -53,7 +53,9 @@
 .box-1{
   
   /* background: linear-gradient(yellow,-20%, gray); */
-  background: linear-gradient( yellow,gray 70%)
+  /* background: linear-gradient( yellow,gray 70%) */
+  /* background: rgb(34,193,195); */
+  background: linear-gradient( rgba(34,193,195,1), rgba(45,253,163,1) 70%)
 }
 
 .center{
@@ -72,7 +74,7 @@
   height: 100px;
   margin-bottom: 20px;
   border-radius: 50%;
-  border: 5px solid yellow;
+  border: 5px solid rgba(13, 97, 60, 0.623);
 }
 
 .box-1{
@@ -80,7 +82,7 @@ flex-direction: column;
  width: 350px;
  height: 450px;
  border-radius: 10px;
- box-shadow: 3px 3px 10px rgba(26,26,26),-2px -2px 10px rgba(26,26,26) 
+ box-shadow: 3px 3px 10px rgb(59, 57, 57),-2px -2px 10px rgb(59, 56, 56) 
 }
 
 .art-name{
@@ -129,7 +131,7 @@ flex-direction: column;
 
 .ctrl{
   cursor: pointer;
-  background-color: yellow;
+  background-color: rgba(34,193,195,1);
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -176,7 +178,7 @@ flex-direction: column;
   cursor: pointer;
   position: absolute;
   border: 10px;
-  background-color: yellow;
+  background-color: rgba(34,193,195,1);
   width: 0%;
   height: 100%;
   transition: width 0.1s;
@@ -208,22 +210,23 @@ input[type="range"] {
 
 /* Style the track (line) */
 input[type="range"]::-webkit-slider-runnable-track {
-  background: linear-gradient(to right, red 0%, red calc(var(--value) * 1%), #ccc calc(var(--value) * 1%), #ccc 100%); 
+  background: linear-gradient(to right, rgba(34,193,195,1) 0%, rgba(34,193,195,1) calc(var(--value) * 1%), rgba(34,193,195,1) calc(var(--value) * 1%), rgba(34,193,195,1) 100%); 
   height: 5px;  border-radius: 5px; /* Rounded corners */
 }
+
 
 /* Style the thumb (circle) */
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none; /* Remove default styling */
   width: 15px; /* Set width */
   height: 15px; /* Set height */
-  background-color: yellow; /* Set thumb color */
+  background-color: rgba(34,193,195,1); /* Set thumb color */
   border-radius: 50%; /* Circular shape */
   /* margin-top: -8px; Adjust vertical position */
 }
 
 /* Adjust thumb position */
 input[type="range"]:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 0.2rem rgba(199, 187, 80, 0.651); /* Add focus effect */
+  box-shadow: 0 0 0 0.2rem rgba(107, 104, 79, 0.651); /* Add focus effect */
 }
 
