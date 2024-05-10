@@ -18,25 +18,25 @@ const MusicPlayer = () => {
       artistNames: "Hafiz Tahir Qadri",
       title: "Mien Kabe ko dekhonga",
       srcImg: img1,
-      srcAudio: "/src/audio/tahir-qadri.mp3",
+      srcAudio: "/src/audio/tahir-qadri.m4a",
     },
     {
       artistNames: "Zohaib Ashrafi",
       title: "Wo shar e muhabbat",
       srcImg: img3,
-      srcAudio: "/src/audio/zohaib-ashrafi.mp3",
+      srcAudio: "/src/audio/zohaib-ashrafi.m4a",
     },
     {
       artistNames: "Owais Raza Qadri",
       title: "Ho karam sarkar ab tu",
       srcImg: img2,
-      srcAudio: "/src/audio/owais-qadri.mp3",
+      srcAudio: "/src/audio/owais-qadri.m4a",
     },
     {
       artistNames: "Ashfaq Attari",
       title: "Barwien ka noor",
       srcImg: img4,
-      srcAudio: "/src/audio/ashfaq-attari.mp3",
+      srcAudio: "/src/audio/ashfaq-attari.m4a",
     },
   ];
 
